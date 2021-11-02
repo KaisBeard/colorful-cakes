@@ -1,0 +1,21 @@
+*{
+    background-color: #FFD6AA;
+    /*border: 1px solid red;
+*/
+}
+
+.cake1, .cake2, .cake3 {
+    border-bottom: 3px solid #552C00;
+}
+
+.cake1, .cake1 > * {
+    background-color: #D47A6A;
+}
+
+.cake2, .cake2 > * {
+    background-color: #457585;
+}
+
+.cake3, .cake3 > * {
+    background-color: #4E9C68;
+}
