@@ -1,12 +1,28 @@
 *{
+    /*background-color: #FFD6AA;
+    border: 1px solid red;*/
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: repeat(5, auto);
     background-color: #FFD6AA;
-    /*border: 1px solid red;
-*/
+}
+
+header {
+    grid-column: 2; 
 }
 
 .cake1, .cake2, .cake3 {
-    border-bottom: 3px solid #552C00;
+    border-bottom: 5px solid #552C00;
+    grid-column: 2;
+    min-height: 8em;    
 }
+
+/*.cake1 a, .cake2 a, .cake3 a {
+    text-align: center;
+} not needed*/
 
 .cake1, .cake1 > * {
     background-color: #D47A6A;
