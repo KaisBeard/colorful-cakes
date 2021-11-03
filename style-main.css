@@ -14,6 +14,36 @@ header {
     grid-column: 2; 
 }
 
+header {
+    grid-column: 2; 
+}
+
+footer {
+    grid-column: 2;
+    min-height: 4em;  
+    background: #575757;
+    
+}
+.AboutUs, .Contact {
+    grid-column: 2;
+    min-height: 4em;
+    color: white;
+  }
+
+.button {
+    border-radius: 0.2em;
+    border: 2px solid aqua;
+    padding: 10px; 
+    width: 120px;
+    height: 22px;
+    align-items: center;
+    justify-content: center;
+    color:aqua;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+  }
+
 .cake1, .cake2, .cake3 {
     border-bottom: 5px solid #552C00;
     grid-column: 2;
