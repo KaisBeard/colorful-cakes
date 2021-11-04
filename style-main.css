@@ -100,6 +100,11 @@ footer {
   font-family: "Abril Fatface";
   font-size: larger;
 }
+.cake1 h3 a,
+.cake2 h3 a,
+.cake3 h3 a {
+  text-decoration: none;
+}
 
 .red-cakes-names {
   color: #660d0d;
@@ -110,4 +115,5 @@ footer {
 .green-cakes-names {
   color: rgb(3, 43, 3);
 }
+
 /* END - Kate changes*/
