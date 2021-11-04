@@ -82,15 +82,23 @@ footer {
 .cake2 > *,
 .cake3 > * {
   min-width: 280px;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 .cake1 a {
   color: #800000;
+  font-family: "Abril Fatface";
+  font-size: larger;
 }
 .cake2 a {
   color: rgba(18, 2, 54, 0.788);
+  font-family: "Abril Fatface";
+  font-size: larger;
 }
 .cake3 a {
   color: rgb(3, 43, 3);
+  font-family: "Abril Fatface";
+  font-size: larger;
 }
 
 .red-cakes-names {
