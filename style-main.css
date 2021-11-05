@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-*{
-    
-    border: 1px solid red;
-=======
 * {
   /*background-color: #FFD6AA;
     border: 1px solid red;*/
->>>>>>> ff6a0ef14c0075aab0606f49616a9548fbfe3c62
 }
 
 body {
@@ -17,26 +11,7 @@ body {
 }
 
 header {
-<<<<<<< HEAD
-    grid-column: 2;
-    
-}
-
-nav{
-    min-width: 100%;
-    background-color: #FFD6AA;
-}
-
-.cake-top {
-    background-image: url("wedding-cake top.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;    
-    width: 100%;    
-    padding-top: 15%;
-=======
   grid-column: 2;
->>>>>>> ff6a0ef14c0075aab0606f49616a9548fbfe3c62
 }
 
 footer {
