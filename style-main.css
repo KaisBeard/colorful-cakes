@@ -98,7 +98,8 @@ footer {
   min-width: 280px;
   padding-top: 3%;
   padding-bottom: 3%;
-  padding-left: 8%;
+  padding-left: 5%;
+  /* padding: 3% 6%; */
 }
 .cake1 a {
   color: #800000;
@@ -133,5 +134,4 @@ footer {
 .green-cakes-names {
   color: rgb(3, 43, 3);
 }
-
 /* END - Kate changes*/
