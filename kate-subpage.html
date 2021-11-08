@@ -2,13 +2,15 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8" />
+    <!--LINK TO FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <!--END OF THE FONTS-->
+    <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -23,32 +25,74 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style-subpage.css" />
+    <link rel="stylesheet" href="kate-subpage.css" />
     <title>Colorful Cakes</title>
     <!--Title Needs to be edited-->
   </head>
   <body>
-    <div class="container-flex">
-      <div class="head-container">
-        <header>
-          <div class="Cakepageheader">
-            <h5>Cakepagename</h5>
+    <header>
+      <div class="subpagehead-container">
+        <div class="row">
+          <div class="Cakepageheader col-sm-6 col-md-8 col-lg-9 p-5">
+            <h2>Cakepagename</h2>
           </div>
-          <div class="morecakes">
-            <p>Want more cakes?</p>
+          <div class="morecakes col-sm-6 col-md-4 col-lg-3 p-lg-5">
+            <h4>Want more cakes?</h4>
           </div>
-        </header>
-      </div>
-
-      <div class="mid-container">
-        <div class="Cakename">
-          <h6>Cakename</h6>
-        </div>
-
-        <div class="Share">
-          <button type="button">Share!</button>
         </div>
       </div>
+    </header>
+    <div class="mid-container row">
+      <div
+        class="share-button sharer col-sm-6 col-md-4 col-lg-4 p-5"
+        style="display: block"
+      >
+        <button type="button" class="btn btn-success share-btn">Share</button>
+        <div class="social top center networks-5">
+          <!-- Facebook Share Button -->
+          <a
+            class="fbtn share facebook"
+            href="https://www.facebook.com/sharer/sharer.php?u=url"
+            ><i class="fa fa-facebook"></i
+          ></a>
+
+          <!-- Google Plus Share Button -->
+          <a
+            class="fbtn share gplus"
+            href="https://plus.google.com/share?url=url"
+            ><i class="fa fa-google-plus"></i
+          ></a>
+
+          <!-- Twitter Share Button -->
+          <a
+            class="fbtn share twitter"
+            href="https://twitter.com/intent/tweet?text=title&amp;url=url&amp;via=creativedevs"
+            ><i class="fa fa-twitter"></i
+          ></a>
+
+          <!-- Pinterest Share Button -->
+          <a
+            class="fbtn share pinterest"
+            href="http://pinterest.com/pin/create/button/?url=url&amp;description=data&amp;media=image"
+            ><i class="fa fa-pinterest"></i
+          ></a>
+
+          <!-- LinkedIn Share Button -->
+          <a
+            class="fbtn share linkedin"
+            href="http://www.linkedin.com/shareArticle?mini=true&amp;url=url&amp;title=title&amp;source=url/"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+      <div class="Cakename col-sm-6 col-md-8 col-lg-8 p-5">
+        <h2>Cakename</h2>
+      </div>
+    </div>
+
+    <div></div>
+
+  
 
       <div class="main-flex">
         <div class="Cake-details">
@@ -95,6 +139,7 @@
         <button type="button">Others cakes</button>
       </div>
     </div>
+    
 
     <!--all the following belong to bootstrap!-->
     <script
