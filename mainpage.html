@@ -30,27 +30,39 @@
   </head>
   <body>
     <header class="row sticky-top align-items-center justify-content-center">      
-      <nav class="navbar row navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar row navbar-expand-lg navbar-light ">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#burgerButton" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#burgerButton">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="burgerButton">
-                <div class="navbar-nav">
-                  <a class="nav-link" href="#">Features</a>
-                  <a class="nav-link" href="#">Pricing</a>
-                  <a class="nav-link" href="#">Features</a>
-                  <a class="nav-link" href="#">Pricing</a>
+              <div class="collapse navbar-collapse justify-content-center" id="burgerButton">
+                <div class="navbar-nav navbar-items ">
+                  <div>
+                    <img class="candle" src="candles.png" />
+                    <a class="nav-link" href="#cake1">Red cakes</a>
+                  </div>
+                  <div>
+                    <img class="candle" src="candles.png" />
+                    <a class="nav-link" href="#cake2">Blue cakes</a>
+                  </div>
+                  <div>
+                    <img class="candle" src="candles.png" />
+                    <a class="nav-link" href="#cake3">Green cakes</a>
+                  </div>
+                  <div>
+                    <img class="candle" src="candles.png" />
+                    <a class="nav-link" href="#">About <br> us</a>
+                  </div>
                 </div>
               </div>
-            </div>
+            </div>            
         </nav>
-        <div class="row cake-top" >
+        <div class="row cake-top"></div>
         </div>        
     </header>
     <!--KATE SECTION-->
-    <div class="cake1 row row-cols-4 align-items-center justify-content-center">
+    <div class="cake1 row row-cols-4 align-items-center justify-content-center" id="cake1">
       <h3><a class="col-auto" href="">RED CAKES</a></h3>
       <div class="red-cakes-names">
         <a class="col-auto" href="">STRAWBERRY PRETZEL TART</a>
@@ -78,7 +90,7 @@
       </div>
     </div>
 
-    <div class="cake2 row row-cols-4 align-items-center justify-content-center">
+    <div id="cake2" class="cake2 row row-cols-4 align-items-center justify-content-center">
       <h3><a class="col-auto" href="">BLUE CAKES</a></h3>
       <div class="blue-cakes-names">
         <a class="col-auto" href="">BLUEBERRY LIME TART</a>
@@ -105,7 +117,8 @@
         </ul>
       </div>
     </div>
-    <div class="cake3 row row-cols-4 align-items-center justify-content-center">
+
+    <div id="cake3" class="cake3 row row-cols-4 align-items-center justify-content-center">
       <h3><a class="col-auto" href="">GREEN CAKES</a></h3>
       <div class="green-cakes-names">
         <a class="col-auto" href="">FOREST MOSS CAKE</a>
