@@ -11,22 +11,35 @@ body {
 }
 
 header {
+<<<<<<< HEAD
     grid-column: 2;
     
+=======
+  grid-column: 2;
+>>>>>>> dd9fea6a5d1813086ab884ae2ac653bd026533fd
 }
 
-nav{
-    min-width: 100%;
-    background-color: #FFD6AA;
+nav {
+  min-width: 100%;
+  background-color: #ffd6aa;
 }
 
 .cake-top {
+<<<<<<< HEAD
     background-image: url("wedding-cake top.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;    
     width: 100%;    
     padding-top: 15%;
+=======
+  background-image: url("wedding-cake top.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 15%;
+>>>>>>> dd9fea6a5d1813086ab884ae2ac653bd026533fd
 }
 
 footer {
@@ -99,25 +112,29 @@ footer {
   min-width: 280px;
   padding-top: 3%;
   padding-bottom: 3%;
+  padding-left: 8%;
 }
 .cake1 a {
   color: #800000;
   font-family: "Abril Fatface";
   font-size: larger;
+  font-weight: bold;
 }
 .cake2 a {
   color: rgba(18, 2, 54, 0.788);
   font-family: "Abril Fatface";
   font-size: larger;
+  font-weight: bold;
 }
 .cake3 a {
   color: rgb(3, 43, 3);
   font-family: "Abril Fatface";
   font-size: larger;
+  font-weight: bold;
 }
-.cake1 h3 a,
-.cake2 h3 a,
-.cake3 h3 a {
+.redcakes-section-name h2 a,
+.bluecakes-section-name h2 a,
+.greencakes-section-name h2 a {
   text-decoration: none;
 }
 
