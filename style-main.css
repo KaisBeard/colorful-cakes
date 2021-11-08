@@ -1,70 +1,25 @@
-*{
-    /*background-color: #FFD6AA;
-    border: 1px solid red;*/
-}
-
-body {
-    display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
-    grid-template-rows: repeat(5, auto);
-    background-color: #FFD6AA;
-}
-
-header {
-    grid-column: 2; 
-}
-
 footer {
-    grid-column: 2;
-    min-height: 4em;  
-    background: #575757;
-    
+  grid-column: 2;
+  min-height: 4em;
+  background: #575757;
 }
-.AboutUs, .Contact {
-    grid-column: 2;
-    min-height: 4em;
-    color: #FFFFFF;
-    border: transparent;
-    background-color: transparent;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-
-  }
+.AboutUs,
+.Contact {
+  grid-column: 2;
+  min-height: 4em;
+  color: white;
+}
 
 .button {
-    border-radius: 0.2em;
-    border: 2px solid aqua;
-    padding: 10px; 
-    width: 120px;
-    height: 22px;
-    align-items: center;
-    justify-content: center;
-    color:aqua;
-    text-align: center;
-    vertical-align: middle;
-    background-color: transparent;
-  }
-
-
-.cake1, .cake2, .cake3 {
-    border-bottom: 5px solid #552C00;
-    grid-column: 2;
-    min-height: 8em;    
-}
-
-/*.cake1 a, .cake2 a, .cake3 a {
-    text-align: center;
-} not needed*/
-
-.cake1, .cake1 > * {
-    background-color: #D47A6A;
-}
-
-.cake2, .cake2 > * {
-    background-color: #457585;
-}
-
-.cake3, .cake3 > * {
-    background-color: #4E9C68;
+  border-radius: 0.2em;
+  border: 2px solid aqua;
+  padding: 10px;
+  width: 120px;
+  height: 22px;
+  align-items: center;
+  justify-content: center;
+  color: aqua;
+  text-align: center;
+  vertical-align: middle;
+  background-color: transparent;
 }
