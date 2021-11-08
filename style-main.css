@@ -45,6 +45,14 @@ nav {
     justify-content: center;
     flex-direction: column;
 }
+.cake-top {
+  background-image: url("wedding-cake top.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 15%;
+}
 
 .candle {
   max-width: 3em;
@@ -135,25 +143,29 @@ footer {
   min-width: 280px;
   padding-top: 3%;
   padding-bottom: 3%;
+  padding-left: 8%;
 }
 .cake1 a {
   color: #800000;
   font-family: "Abril Fatface";
   font-size: larger;
+  font-weight: bold;
 }
 .cake2 a {
   color: rgba(18, 2, 54, 0.788);
   font-family: "Abril Fatface";
   font-size: larger;
+  font-weight: bold;
 }
 .cake3 a {
   color: rgb(3, 43, 3);
   font-family: "Abril Fatface";
   font-size: larger;
+  font-weight: bold;
 }
-.cake1 h3 a,
-.cake2 h3 a,
-.cake3 h3 a {
+.redcakes-section-name h2 a,
+.bluecakes-section-name h2 a,
+.greencakes-section-name h2 a {
   text-decoration: none;
 }
 
