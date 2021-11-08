@@ -1,3 +1,76 @@
+* {
+  /*background-color: #FFD6AA;*/
+  /*border: 1px solid red;*/
+  font-family: roboto;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: repeat(5, auto);
+  background-color: #ffd6aa;
+}
+
+header {
+    grid-column: 2;
+}
+
+nav {
+    min-width: 100%;
+    background-color: #FFD6AA;
+}
+
+.navbar-items a {
+  background-color: #D4A16A;
+  width: 5em;
+  margin: 0em 1em -12px;
+  
+  padding-bottom: 1em;
+  overflow: visible;
+  text-align: center;
+  color: white;
+  font-family: "Abril Fatface";
+  font-size: larger;
+  line-height: 1.2em;
+}
+
+.navbar-items div {
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    width: 100%;    
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.cake-top {
+    background-image: url("wedding-cake top.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    width: 100%;    
+    padding-top: 15%;
+}
+
+
+.candle {
+  max-width: 3em;
+  align-self: center;
+}
+
+.cake-top { /* part of the sticky menu*/
+    background-image: url("cake header pic.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    width: 100%;   
+    padding-top: 10%;
+    z-index: 1000;
+   
+}
+
+
 footer {
   grid-column: 2;
   min-height: 4em;
@@ -23,3 +96,87 @@ footer {
   vertical-align: middle;
   background-color: transparent;
 }
+
+.cake1,
+.cake2,
+.cake3 {
+  border-bottom: 20px solid #552c00;
+  grid-column: 2;
+  min-height: 8em;
+  /* Kate changes*/
+  font-family: "Abril Fatface";
+  padding: 4em;
+  padding-top: 10em;
+}
+
+/*.cake1 a, .cake2 a, .cake3 a {
+    text-align: center;
+} not needed*/
+
+.cake1,
+.cake1 > * {
+  background-color: #d47a6a;
+}
+
+.cake2,
+.cake2 > * {
+  background-color: #457585;
+}
+
+.cake3,
+.cake3 > * {
+  background-color: #4e9c68;
+}
+
+/* Kate changes*/
+.cake1 ul,
+.cake2 ul,
+.cake3 ul {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: smaller;
+}
+
+.cake1 > *,
+.cake2 > *,
+.cake3 > * {
+  min-width: 280px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 8%;
+}
+.cake1 a {
+  color: #800000;
+  font-family: "Abril Fatface";
+  font-size: larger;
+  font-weight: bold;
+}
+.cake2 a {
+  color: rgba(18, 2, 54, 0.788);
+  font-family: "Abril Fatface";
+  font-size: larger;
+  font-weight: bold;
+}
+.cake3 a {
+  color: rgb(3, 43, 3);
+  font-family: "Abril Fatface";
+  font-size: larger;
+  font-weight: bold;
+}
+.redcakes-section-name h2 a,
+.bluecakes-section-name h2 a,
+.greencakes-section-name h2 a {
+  text-decoration: none;
+}
+
+.red-cakes-names {
+  color: #660d0d;
+}
+.blue-cakes-names {
+  color: rgba(18, 2, 54, 0.788);
+}
+.green-cakes-names {
+  color: rgb(3, 43, 3);
+}
+
+/* END - Kate changes*/
