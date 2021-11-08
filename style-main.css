@@ -12,17 +12,7 @@ body {
 }
 
 header {
-<<<<<<< HEAD
-<<<<<<< HEAD
     grid-column: 2;
-    
-=======
-  grid-column: 2;
->>>>>>> dd9fea6a5d1813086ab884ae2ac653bd026533fd
-=======
-    grid-column: 2;
-    
->>>>>>> candleheader
 }
 
 nav {
@@ -55,22 +45,14 @@ nav {
     flex-direction: column;
 }
 .cake-top {
-<<<<<<< HEAD
     background-image: url("wedding-cake top.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;    
     width: 100%;    
     padding-top: 15%;
-=======
-  background-image: url("wedding-cake top.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  padding-top: 15%;
->>>>>>> dd9fea6a5d1813086ab884ae2ac653bd026533fd
 }
+
 
 .candle {
   max-width: 3em;
