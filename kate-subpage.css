@@ -1,5 +1,6 @@
 * {
   background-color: #feede2;
+  border: 1px solid grey;
 }
 
 .Cakepageheader h2 {
@@ -12,10 +13,25 @@
   color: #281000;
 }
 
-.mid-container .Cakename h2 {
+.mid-container .Cakename h1 {
   font-family: "Abril Fatface";
   font-weight: bold;
-  color: #281000;
+  color: #a30500;
+}
+
+.Procedure h4 {
+  font-family: "Abril Fatface";
+}
+.Procedure li {
+  font-family: "Roboto";
+}
+
+.Ingredients h4 {
+  font-family: "Abril Fatface";
+}
+
+.Cake-details img {
+  width: 95%;
 }
 
 /* SHARE BUTTON */
