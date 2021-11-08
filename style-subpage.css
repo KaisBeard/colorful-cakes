@@ -3,9 +3,17 @@
     
 }
 
+body {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: repeat(5, auto);
+    background-color: #ffd6aa;
+  } /**/
+
 .container-flex{
     display: flex;
     flex-direction: column;
+    grid-column: 2; /**/
 
 }
 
@@ -21,11 +29,20 @@
     border: solid grey;
     width: 1200px;
     height: 100px;
-    justify-content: top;
+   
     margin-top: 20px;
     margin-left: 20px; 
 }
 
+header > div{
+  /*  display: inline-block;*/
+  display: inline-flex;
+  justify-content: space-around;
+  
+ 
+    
+
+}
 .mid-container{
     
     border: solid grey;
