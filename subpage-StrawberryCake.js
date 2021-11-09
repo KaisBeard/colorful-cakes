@@ -1,3 +1,5 @@
+import "./subpage-StrawberryCake.css";
+
 $(document).ready(function () {
   //custom button for homepage
   $(".share-btn").click(function (e) {
