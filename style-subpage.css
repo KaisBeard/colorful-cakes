@@ -2,6 +2,10 @@
   background-color: #ffd6aa;
 }
 
+.sec {
+  grid-column: 2;
+}
+
 .container-flex {
   display: flex;
   flex-direction: column;

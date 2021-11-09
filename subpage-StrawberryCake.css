@@ -1,5 +1,12 @@
 * {
-  background-color: #feede2;
+  background-color: #fee2e2;
+  /*border: 1px solid red; feede2*/
+  color: #1F0707;
+}
+
+body {
+  margin-right: 8%;
+  margin-left: 8%;
 }
 
 .Cakepageheader h1 {
@@ -9,24 +16,34 @@
 }
 .morecakes h4 {
   font-family: "Abril Fatface";
-  color: #281000;
+  color: #800000;
+  text-decoration: underline;
 }
 
 .mid-container .Cakename h1 {
   font-family: "Abril Fatface";
   font-weight: bold;
-  color: #a30500;
+  color: #800000;
 }
 
-.Procedure h4 {
+.Procedure h4, .Ingredients h4 {
   font-family: "Abril Fatface";
+  color: #800000;
+  text-decoration: underline;
 }
 .Procedure li {
   font-family: "Roboto";
 }
 
+/*
 .Ingredients h4 {
   font-family: "Abril Fatface";
+}*/
+
+.share-button {
+  max-width: 150px;
+  position: fixed;
+  z-index: 1000;
 }
 
 .Cake-details img {
@@ -44,7 +61,7 @@
 /* HOVER EFFECT */
 .subcontainer1 {
   position: relative;
-  width: 95%;
+  width: 100%;
 }
 
 .image {
@@ -54,6 +71,7 @@
   height: auto;
   transition: 0.5s ease;
   backface-visibility: hidden;
+  align-self: center;
 }
 
 .middle {
