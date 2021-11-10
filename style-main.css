@@ -9,12 +9,11 @@ body {
   grid-template-columns: 1fr 5fr 1fr;
   grid-template-rows: repeat(5, auto);
   background-color: #ffd6aa;
-  
 }
 
 header {
-    grid-column: 2;
-    margin-bottom: -4em;
+  grid-column: 2;
+  margin-bottom: -4em;
 }
 
 .logo img {
@@ -25,21 +24,21 @@ header {
 
 @media only screen and (max-width: 992px) {
   .logo img {
-    max-width: 7em; 
+    max-width: 7em;
     margin-bottom: -1em;
   }
 }
 
 nav {
-    min-width: 100%;
-    background-color: #FFD6AA;
+  min-width: 100%;
+  background-color: #ffd6aa;
 }
 
 .navbar-items a {
-  background-color: #D4A16A;
+  background-color: #d4a16a;
   width: 5em;
   margin: 0em 1em -12px;
-  
+
   padding-bottom: 1em;
   overflow: visible;
   text-align: center;
@@ -51,23 +50,22 @@ nav {
 
 .navbar-items div {
   background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;    
-    width: 100%;    
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .cake-top {
-    background-image: url("wedding-cake top.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;    
-    width: 100%;    
-    padding-top: 15%;
+  background-image: url("wedding-cake top.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 15%;
 }
-
 
 .candle {
   max-width: 3em;
@@ -84,14 +82,15 @@ nav {
   }
 }
 
-.cake-top { /* part of the sticky menu*/
-    background-image: url("cake header pic.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;    
-    width: 100%;   
-    padding-top: 10%;
-    z-index: 1000;
+.cake-top {
+  /* part of the sticky menu*/
+  background-image: url("cake header pic.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 10%;
+  z-index: 1000;
 }
 
 /* sticky menu
@@ -107,16 +106,16 @@ footer {
   min-height: 4em;
   background: #575757;
 }
-.AboutUs, .Contact {
+.AboutUs,
+.Contact {
   grid-column: 2;
   min-height: 4em;
-  color: #FFFFFF;
+  color: #ffffff;
   border: transparent;
   background-color: transparent;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-
 }
 
 /* WHERE IS THIS COMING FROM?
@@ -135,12 +134,11 @@ footer {
 }
 */
 
-
 .cake1,
 .cake2,
 .cake3 {
   border-bottom: 20px solid #552c00;
-  grid-column: 2;  
+  grid-column: 2;
   /* Kate changes*/
   font-family: "Abril Fatface";
   padding-left: 3em;
@@ -148,8 +146,7 @@ footer {
   padding-top: 17em;
   margin-top: -11em;
   padding-bottom: 6em;
-  
-  
+
   /*
   margin-top: -450px;
   padding-top: 450px;
