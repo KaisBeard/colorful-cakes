@@ -9,6 +9,7 @@ body {
   grid-template-columns: 1fr 5fr 1fr;
   grid-template-rows: repeat(5, auto);
   background-color: #ffd6aa;
+  
 }
 
 header {
@@ -106,18 +107,23 @@ footer {
   min-height: 4em;
   background: #575757;
 }
-.AboutUs,
-.Contact {
+.AboutUs, .Contact {
   grid-column: 2;
   min-height: 4em;
-  color: white;
+  color: #FFFFFF;
+  border: transparent;
+  background-color: transparent;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+
 }
 
 /* WHERE IS THIS COMING FROM?
 .button {
   border-radius: 0.2em;
   border: 2px solid aqua;
-  padding: 10px;
+  padding: 10px; 
   width: 120px;
   height: 22px;
   align-items: center;
@@ -128,6 +134,7 @@ footer {
   background-color: transparent;
 }
 */
+
 
 .cake1,
 .cake2,
@@ -192,7 +199,8 @@ footer {
   min-width: 280px;
   padding-top: 3%;
   padding-bottom: 3%;
-  padding-left: 8%;
+  padding-left: 5%;
+  /* padding: 3% 6%; */
 }
 .cake1 a {
   color: #800000;
@@ -227,7 +235,6 @@ footer {
 .green-cakes-names {
   color: rgb(3, 43, 3);
 }
-
 /* END - Kate changes*/
 
 /*
