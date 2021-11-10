@@ -3,17 +3,9 @@
     
 }
 
-body {
-    display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
-    grid-template-rows: repeat(5, auto);
-    background-color: #ffd6aa;
-  } /**/
-
 .container-flex{
     display: flex;
     flex-direction: column;
-    grid-column: 2; /**/
 
 }
 
@@ -21,6 +13,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+   /* justify-content: space-between;
    /* flex-direction:column;*/
 }
 
@@ -29,22 +22,21 @@ body {
     border: solid grey;
     width: 1200px;
     height: 100px;
-   
+  /*  justify-content: top;*/
     margin-top: 20px;
     margin-left: 20px; 
+    padding: 1%;
 }
 
 header > div{
-  /*  display: inline-block;*/
-  display: inline-flex;
-  justify-content: space-around;
-  
- 
-    
-
+    display: inline-flex;
+    justify-content: center;
 }
+
 .mid-container{
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     border: solid grey;
     width: 1200px;
     margin: 10px;
