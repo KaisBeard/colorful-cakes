@@ -3,6 +3,9 @@
   /*border: 1px solid red;*/
   font-family: roboto;
 }
+.footer-new .p {
+  font-family: "Roboto";
+}
 
 body {
   display: grid;
