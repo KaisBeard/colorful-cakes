@@ -9,8 +9,13 @@
       href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet" />
     <!--END OF THE FONTS-->
+    <!--SHARE BUTTON-->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!--END SHARE BUTTON-->
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -26,15 +31,15 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="subpage-StrawberryCake.css" />
+    <link rel="stylesheet" href="subpage-REDCakes.css" />
     <title>Colorcakes</title>
   </head>
   <body>
-    <header class ="sections">
+    <header class="sections">
       <div class="subpagehead-container">
         <div class="row">
           <div class="Cakepageheader col-sm-12 col-md-8 col-lg-9 p-5">
-            <h1><img src="cakelovers logo2.png" width="250"  /></h1>
+            <h1><img src="cakelovers logo2.png" width="250" /></h1>
           </div>
           <div class="morecakes col-sm-12 col-md-4 col-lg-3 p-lg-5 p-5">
             <a href="./mainpage.html"><h4>Want more cakes?</h4></a>
@@ -43,75 +48,33 @@
       </div>
     </header>
     <div class="mid-container row sections">
-      <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary share-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Share
-      </button>
-
-      <!-- Modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <a
-                class="fbtn share facebook"
-                href="https://www.facebook.com/sharer/sharer.php?u=url"
-              >
-                <i class="fab fa-facebook"></i>
-              </a>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--- 
-      <div
-        class="share-button sharer col-sm-12 col-md-4 col-lg-4 p-5"
-        style="display: block"
-      >
-        <button type="button" class="btn btn-success share-btn">Share</button>
-        <div class="social top center networks-5">
-
-
-          <a
-            class="fbtn share gplus"
-            href="https://plus.google.com/share?url=url"
-            ><i class="fa fa-google-plus"></i
-          ></a>
-
-          <a
-            class="fbtn share twitter"
-            href="https://twitter.com/intent/tweet?text=title&amp;url=url&amp;via=creativedevs"
-            ><i class="fa fa-twitter"></i
-          ></a>
-
-          <a
-            class="fbtn share pinterest"
-            href="http://pinterest.com/pin/create/button/?url=url&amp;description=data&amp;media=image"
-            ><i class="fa fa-pinterest"></i
-          ></a>
-
-          <a
-            class="fbtn share linkedin"
-            href="http://www.linkedin.com/shareArticle?mini=true&amp;url=url&amp;title=title&amp;source=url/"
-            ><i class="fa fa-linkedin"></i
-          ></a>
-        </div>
-      </div>
-      --->
-      <div class="Cakename col-sm-6 col-md-8 col-lg-8 p-5">
+      <div class="Cakename d-flex justify-content-center p-5">
         <h1>Strawberry Cake</h1>
       </div>
+      <!--SHARE BUTTON CONTAINER-->
+      <div class="share-btn-container">
+        <a href="#" class="facebook-btn">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#" class="twitter-btn">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="pinterest-btn">
+          <i class="fab fa-pinterest"></i>
+        </a>
+        <a href="#" class="linkedin-btn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="#" class="whatsapp-btn">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+      <!--END OF SHARE BUTTON CONTAINER-->
     </div>
 
-    <div class="main-subpage-container row row-lg-cols-3 row-md-cols-1 sections">
+    <div
+      class="main-subpage-container row row-lg-cols-3 row-md-cols-1 sections"
+    >
       <div
         class="
           Cake-details
@@ -132,8 +95,9 @@
         </div>
         <div class="subcontainer1">
           <img
+            class="pinterest-img"
             src="Cakes-Photos/1.RED-CAKES/1. STRAWBERRY CAKE/1-STRAWBERRY3.jpg"
-            alt="Strawberry Cake 3"
+            alt="Strawberry Cake 2"
           />
         </div>
       </div>
@@ -329,7 +293,8 @@
         </table>
       </div>
     </div>
-
+    <!--SHARE BUTTON-->
+    <script src="./subpage-Cakes.js"></script>
     <!--all the following belong to bootstrap!-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

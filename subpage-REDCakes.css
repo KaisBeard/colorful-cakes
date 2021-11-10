@@ -1,7 +1,7 @@
 * {
   background-color: #fee2e2;
-  /*border: 1px solid red; feede2*/
-  color: #1F0707;
+  /* border: 1px solid gray;*/
+  color: #1f0707;
 }
 
 body {
@@ -26,13 +26,14 @@ body {
   color: #800000;
 }
 
-.Procedure h4, .Ingredients h4 {
+.Procedure h4,
+.Ingredients h4 {
   font-family: "Abril Fatface";
   color: #800000;
   text-decoration: underline;
 }
 .Procedure li {
-  font-family: "Roboto";
+  font-family: "Roboto", "sans-serif";
 }
 
 /*
@@ -58,6 +59,10 @@ body {
   font-family: "Roboto";
 }
 
+.Procedure p {
+  font-weight: bold;
+  color: #800000;
+}
 /* HOVER EFFECT */
 .subcontainer1 {
   position: relative;
@@ -100,63 +105,76 @@ body {
   padding: 16px 32px;
   font-family: "Roboto";
 }
-
 /* SHARE BUTTON */
+.share-btn-container {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  z-index: 1;
+}
 
-.social .fbtn {
-  width: 50px;
-  display: inline-block;
-  color: #fff;
-  text-align: center;
-  line-height: 18px;
-  float: left;
+.share-btn-container a i {
+  font-size: 32px;
 }
-.social .fa {
-  padding: 15px 0px;
+
+.share-btn-container a {
+  margin: 12px 0;
+  transition: 500ms;
 }
-.facebook {
-  background-color: #3b5998;
+
+.share-btn-container a:hover {
+  transform: scale(1.2);
 }
-.gplus {
-  background-color: #dd4b39;
+
+.share-btn-container .fa-facebook {
+  color: #3b5998;
+  background: white;
 }
-.twitter {
-  background-color: #55acee;
+
+.share-btn-container .fa-twitter {
+  color: #1da1f2;
+  background: white;
 }
-.stumbleupon {
-  background-color: #eb4924;
+
+.share-btn-container .fa-pinterest {
+  color: #bd081c;
+  background: white;
 }
-.pinterest {
-  background-color: #cc2127;
+
+.share-btn-container .fa-linkedin {
+  color: #0077b5;
+  background: white;
 }
-.linkedin {
-  background-color: #0077b5;
+
+.share-btn-container .fa-whatsapp {
+  color: #075e54;
+  background: white;
 }
-.buffer {
-  background-color: #323b43;
+
+/* Media Queries */
+
+@media (max-width: 550px) {
+  .content {
+    padding: 8px 32px;
+  }
+  .share-btn-container {
+    transform: unset;
+    top: unset;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    flex-direction: row;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 16px 0;
+    justify-content: center;
+  }
+  .share-btn-container a {
+    margin: 0 32px;
+  }
 }
-.share-button.sharer {
-  height: 20px;
-  padding: 100px;
-}
-.share-button.sharer .social.active.top {
-  transform: scale(1) translateY(-10px);
-}
-.share-button.sharer .social.active {
-  opacity: 1;
-  transition: all 0.4s ease 0s;
-  visibility: visible;
-}
-.share-button.sharer .social.networks-5 {
-}
-.share-button.sharer .social.top {
-  margin-top: -80px;
-  transform-origin: 0 0 0;
-}
-.share-button.sharer .social {
-  margin-left: -65px;
-  opacity: 0;
-  transition: all 0.4s ease 0s;
-  visibility: hidden;
-}
-/* END BUTTON */
