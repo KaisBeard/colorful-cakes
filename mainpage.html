@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <script src="hover-effect.js"></script>
     <!--END OF THE FONTS-->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -38,21 +39,21 @@
               </button>
               <div class="collapse navbar-collapse justify-content-center" id="burgerButton">
                 <div class="navbar-nav navbar-items">
-                  <div>
-                    <img class="candle" src="candles.png" />
-                    <a class="nav-link" href="#cake1">Red <br> cakes</a>
+                  <div class="candlediv" id="candleanimation">
+                    <img class="candle" id="candle2" src="candles.png" /><img class="candle2 off" id="candle" src="candles2.png" />
+                    <a class="nav-link" href="#cake1" id="hover">Red <br> cakes</a>
                   </div>
-                  <div>
-                    <img class="candle" src="candles.png" />
+                  <div class="candlediv"  id="candleanimation">
+                    <img class="candle" id="candle" src="candles.png" /><img class="candle2 off" id="candle" src="candles2.png" />
                     <a class="nav-link" href="#cake2">Blue <br> cakes</a>
                   </div>
-                  <div>
-                    <img class="candle" src="candles.png" />
+                  <div class="candlediv" id="candleanimation">
+                    <img class="candle" id="candle" src="candles.png" /><img class="candle2 off" id="candle" src="candles2.png" />
                     <a class="nav-link" href="#cake3">Green <br> cakes</a>
                   </div>
-                  <div>
-                    <img class="candle" src="candles.png" />
-                    <a class="nav-link" href="#">About <br> us</a>
+                  <div class="candlediv" id="candleanimation">
+                    <img class="candle" id="candle" src="candles.png" /><img class="candle2 off" id="candle" src="candles2.png" />
+                    <a class="nav-link" href="#footer">About <br> us</a>
                   </div>
                 </div>
               </div>
@@ -172,7 +173,7 @@
     </div>
     <!--END OF KATES SECTION-->
     <!-- Footer -->
-<footer class="footer-new text-center text-lg-start bg-muted text-light">
+<footer class="footer-new text-center text-lg-start bg-muted text-light" id="footer">
 
   <!-- Section: Links  -->
   <section class="">
@@ -223,7 +224,7 @@
   <!-- Section: Links  -->
 
   <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+  <div class="text-center p-4">
     © 2021 Copyright:
     <a class="text-reset fw-bold">Group 4</a>
   </div>

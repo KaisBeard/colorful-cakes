@@ -3,9 +3,6 @@
   /*border: 1px solid red;*/
   font-family: roboto;
 }
-.footer-new .p {
-  font-family: "Roboto";
-}
 
 body {
   display: grid;
@@ -45,7 +42,7 @@ nav {
   padding-bottom: 1em;
   overflow: visible;
   text-align: center;
-  color: white;
+  /*color: white;*/
   font-family: "Abril Fatface";
   font-size: larger;
   line-height: 1.2em;
@@ -73,7 +70,26 @@ nav {
 .candle {
   max-width: 3em;
   align-self: center;
+  z-index: 1;
+  position: absolute;
+  margin-bottom: 60px;
 }
+
+.candle2 {
+  max-width: 3em;
+  align-self: center;
+  z-index: 3;
+  position: relative;
+}
+
+.off {
+  visibility: hidden;
+}
+
+.candlediv {
+  position: relative;
+}
+
 
 @media only screen and (max-width: 992px) {
   .candle {
@@ -87,7 +103,7 @@ nav {
 
 .cake-top {
   /* part of the sticky menu*/
-  background-image: url("cake header pic.png");
+  background-image: url("cake header pic3.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -105,10 +121,22 @@ nav {
 }*/
 
 footer {
-  grid-column: 2;
+  grid-column: 1 / 4;
   min-height: 4em;
-  background: #575757;
+  background: #d4a16a;
 }
+
+footer > * {
+  margin-left: 15%;
+  margin-right: 15%;
+  color: #552c00;
+}
+
+.footer-new .p {
+  font-family: "Roboto"; 
+}
+
+
 .AboutUs,
 .Contact {
   grid-column: 2;
