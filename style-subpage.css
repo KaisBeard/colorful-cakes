@@ -1,5 +1,9 @@
 * {
   background-color: #ffd6aa;
+  border: 1px solid blue;
+}
+.footer-new {
+  background-color: grey;
 }
 
 .sec {
